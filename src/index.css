@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  /* font-size: .14rem; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Tusker Grotesk;
+  src: url("./assets/fonts/TuskerGrotesk-4600Semibold.ttf");
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("./assets/fonts/Comfortaa-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Blow Up;
+  src: url("./assets/fonts/Blow-Up-W90-Regular.ttf");
+}

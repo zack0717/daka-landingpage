@@ -1,0 +1,69 @@
+.send-email-bar {
+  position: relative;
+
+  .bg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    font-family: Tusker Grotesk;
+    overflow: hidden;
+    input {
+      height: 100%;
+      font-weight: 600px;
+      font-family: Tusker Grotesk;
+      color: #237dea;
+      outline: none;
+      border: none;
+      background: transparent;
+
+      &::placeholder {
+        color: #237dea;
+      }
+    }
+
+    .submit {
+      position: absolute;
+      top: 16px;
+      right: 38px;
+      font-size: 40px;
+      color: #fff;
+      transform: rotateZ(270deg) translateX(-50%);
+      transform-origin: top center;
+      cursor: pointer;
+
+      &:hover {
+        color: #933ffa;
+      }
+    }
+  }
+
+  .error-info {
+    overflow-y: hidden;
+    padding: 12px 0;
+    // height: 72px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #ec2e22;
+    text-wrap: nowrap;
+
+    font-family: Tusker Grotesk;
+    letter-spacing: 0.02em;
+  }
+}
+
+.send-email-done {
+  text-align: center;
+  font-family: Tusker Grotesk;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67px;
+  letter-spacing: 0.02em;
+  color: #a0e548;
+}
